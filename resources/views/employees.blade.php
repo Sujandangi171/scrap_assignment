@@ -8,7 +8,7 @@
                 <div class="col-md-3 mb-4">
                     <div class="card crd-ho">
                         <div class="card-body text-center">
-                            <img alt="" src="{{-- Add the image URL here --}}"
+                            <img alt="" src="{{$employee->profile_pic}}"
                                 style="width: 150px; height: 200px" class="img-thumlin">
                             <p>ID: {{ $employee->id }}</p>
                             <p>Name: {{ $employee->staff_name }}</p>

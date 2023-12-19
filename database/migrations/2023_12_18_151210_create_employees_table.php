@@ -17,6 +17,8 @@ return new class extends Migration
             $table->string("designation");
             $table->string("phone");
             $table->string("email");
+            $table->string("profile_pic");
+
             $table->timestamps();
         });
     }
